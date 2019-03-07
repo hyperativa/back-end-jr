@@ -1,0 +1,267 @@
+{
+	"offers": [{
+			"id": 1,
+			"category": "restaurante",
+			"title": "Burger",
+			"description": "Rodízio de hambúrger com opção de entrada.",
+			"advertiser": "Burgersss",
+			"value": 29.90,
+			"highlight": true,
+			"images": [{
+					"url": "http://localhost:3000/1/img1.jpg"
+				},
+				{
+					"url": "http://localhost:3000/1/img2.jpg"
+				},
+				{
+					"url": "http://localhost:3000/1/img3.jpg"
+				},
+				{
+					"url": "http://localhost:3000/1/img4.jpg"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"category": "restaurante",
+			"title": "Cozinha Mexicana",
+			"description": "Almoço ou Jantar com Rodízio Mexicano delicioso.",
+			"advertiser": "Mexicana",
+			"value": 32.90,
+			"highlight": true,
+			"images": [{
+					"url": "http://localhost:3000/2/img1.jpg"
+				},
+				{
+					"url": "http://localhost:3000/2/img2.jpg"
+				},
+				{
+					"url": "http://localhost:3000/2/img3.jpg"
+				},
+				{
+					"url": "http://localhost:3000/2/img4.jpg"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"category": "restaurante",
+			"title": "Pizzas Grandes",
+			"description": "Pizza Grande, Mussarela, Marguerita ou outras!",
+			"advertiser": "Nossa Pizza",
+			"value": 21.90,
+			"highlight": false,
+			"images": [{
+					"url": "http://localhost:3000/3/img1.jpg"
+				},
+				{
+					"url": "http://localhost:3000/3/img2.jpg"
+				},
+				{
+					"url": "http://localhost:3000/3/img3.jpg"
+				},
+				{
+					"url": "http://localhost:3000/3/img4.jpg"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"category": "diversao",
+			"title": "Estância das águas",
+			"description": "Diversão garantida com piscinas, trilhas e muito mais.",
+			"advertiser": "Estância das águas",
+			"value": 31.90,
+			"highlight": true,
+			"images": [{
+					"url": "http://localhost:3000/4/img1.jpg"
+				},
+				{
+					"url": "http://localhost:3000/4/img2.jpg"
+				},
+				{
+					"url": "http://localhost:3000/4/img3.jpg"
+				},
+				{
+					"url": "http://localhost:3000/4/img4.jpg"
+				},
+				{
+					"url": "http://localhost:3000/4/img5.jpg"
+				},
+				{
+					"url": "http://localhost:3000/4/img6.jpg"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"category": "diversao",
+			"title": "Kart",
+			"description": "Bateria de Kart de 30 minutos.",
+			"advertiser": "Speed Kart",
+			"value": 54.90,
+			"highlight": false,
+			"images": [{
+					"url": "http://localhost:3000/5/img1.jpg"
+				},
+				{
+					"url": "http://localhost:3000/5/img2.jpg"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"category": "diversao",
+			"title": "Academia de tiro",
+			"description": "Sessão de tiro dinâmico com Instrutor, Estande, Alvo e Equipamentos.",
+			"advertiser": "Academia de Tiro",
+			"value": 89.90,
+			"highlight": false,
+			"images": [{
+					"url": "http://localhost:3000/6/img1.jpg"
+				},
+				{
+					"url": "http://localhost:3000/6/img2.jpg"
+				}
+			]
+		}
+	],
+	"promotions": [
+		{
+			"id": "comprou-ganhou",
+			"meta-tags": [
+				{
+					"id": "site",
+					"title": "Cadastre e concorra",
+					"description": "Cadastre e concorra a um prêmio sensacional",
+					"image": "http://localhost:3000/hightlight.jpg",
+					"type": "site"
+				},
+				{
+					"id": "facebook",
+					"title": "Cadastre e concorra",
+					"description": "Cadastre e concorra a um prêmio sensacional",
+					"image": "http://localhost:3000/facebook.jpg",
+					"type": "website"
+					
+				},
+				{
+					"id": "twitter",
+					"title": "Cadastre e concorra",
+					"description": "Cadastre e concorra a um prêmio sensacional",
+					"image": "http://localhost:3000/twitter.jpg",
+					"type": "@Hyperativa"
+					
+				}
+			],
+			"title": "Promoção Você Comprou Ganhou!",
+			"highlightTitle": "Compre e Ganhe!",
+			"highlightText": "Faça seu cadastro e na compra já ganhe seu prêmio.",
+			"highlightButtonText": "Cadastre Agora",
+			"highlightButtonLink": "https://www.hyperativa.com.br",
+			"highlightImage": "http://localhost:3000/hightlight.jpg",
+			"stepsTitle": "Como Funciona",
+			"steps": [
+				{
+					"title": "1",
+					"desc": "Realize o cadastro na promoção."
+				},
+				{
+					"title": "2",
+					"desc": "Compre o item em qualquer de nossas lojas."
+				},
+				{
+					"title": "3",
+					"desc": "Pronto! Aguarde a apuração no final da promoção."
+				}
+			],
+			"calendarTitle": "Calendário",
+			"calendarPeriod": "http://localhost:3000/calendar.png",
+			"calendarDate": "01/12/2018 até 31/05/2019",
+			"faqTitle": "Perguntas Frequentes",
+			"faq": [
+				{
+					"question": "Quem está participando?",
+					"answer": "<p>Todos os clientes que foram cadastrado já estão automaticamente participando da promoção. Para ganhar é necessário seguir as regras da promoção.</p><p>Importante: Você pode fazer seu cadastro no site em até 7 dias após a realização da mecanica promocional.</p><p>Para saber mais sobre a promoção, acesse o <a href=\"/regulamento\" data-ga=\"\" data-category=\"regulamento\" data-action=\"clique\" data-label=\"pergunta_12\"><u>Regulamento</u></a>.</p>"
+				},
+				{
+					"question": "Como faço para participar da promoção",
+					"answer": "<p>Realize o cadastro no site da promoção para poder concorrer aos prêmios</p>"
+				},
+				{
+					"question": "Dúvidas, sugestões ou outros questionamentos?",
+					"answer": "<p>Envie uma mensagem pelo <a href=\"/fale-conosco\" data-ga=\"\" data-category=\"faq\" data-action=\"clique\">Fale Conosco</a>.</p>"
+				}
+			],
+			"disclaimerText": "Promoção válida de 01/12/2018 até 31/05/2019 para todos os clientes que realizarem o cadastro na promoção. Para mais informações, consulte o Regulamento da promoção."
+		},
+		{
+			"id": "sorteio",
+			"meta-tags": [
+				{
+					"id": "site",
+					"title": "",
+					"description": "",
+					"image": "http://localhost:3000/site.jpg",
+					"type": "site"
+				},
+				{
+					"id": "facebook",
+					"title": "",
+					"description": "",
+					"image": "http://localhost:3000/facebook.jpg",
+					"type": "websit"
+					
+				},
+				{
+					"id": "twitter",
+					"title": "",
+					"description": "",
+					"image": "http://localhost:3000/twitter.jpg",
+					"type": "@Hyperativa"
+					
+				}
+			],
+			"title": "Promoção Teste Sua Sorte!",
+			"highlightTitle": "Concorra e Ganhe Prêmios Incríveis!",
+			"highlightText": "Faça seu cadastro e concorra a prêmios jamais vistos.",
+			"highlightButtonText": "Cadastre e Concorra",
+			"highlightButtonLink": "https://www.hyperativa.com.br",
+			"highlightImage": "http://localhost:3000/hightlight2.jpg",
+			"stepsTitle": "Veja como participar",
+			"steps": [
+				{
+					"title": "1",
+					"desc": "Realize o cadastro na promoção."
+				},
+				{
+					"title": "2",
+					"desc": "Compre o item em qualquer de nossas lojas."
+				},
+				{
+					"title": "3",
+					"desc": "Pronto! Aguarde o sorteio a final da promoção."
+				}
+			],
+			"calendarTitle": "Calendário",
+			"calendarPeriod": "http://localhost:3000/calendar.png",
+			"calendarDate": "01/12/2018 até 31/05/2019",
+			"faqTitle": "Perguntas Frequentes",
+			"faq": [
+				{
+					"question": "Quem está participando?",
+					"answer": "<p>Todos os clientes que foram cadastrado já estão automaticamente participando da promoção. Para ganhar é necessário seguir as regras da promoção.</p><p>Importante: Você pode fazer seu cadastro no site em até 7 dias após a realização da mecanica promocional.</p><p>Para saber mais sobre a promoção, acesse o <a href=\"/regulamento\" data-ga=\"\" data-category=\"regulamento\" data-action=\"clique\" data-label=\"pergunta_12\"><u>Regulamento</u></a>.</p>"
+				},
+				{
+					"question": "Como faço para participar da promoção",
+					"answer": "<p>Realize o cadastro no site da promoção para poder concorrer aos prêmios</p>"
+				},
+				{
+					"question": "Dúvidas, sugestões ou outros questionamentos?",
+					"answer": "<p>Envie uma mensagem pelo <a href=\"/fale-conosco\" data-ga=\"\" data-category=\"faq\" data-action=\"clique\">Fale Conosco</a>.</p>"
+				}
+			],
+			"disclaimerText": "Promoção válida de 01/12/2018 até 31/05/2019 para todos os clientes que realizarem o cadastro na promoção. Para mais informações, consulte o Regulamento da promoção."
+		}
+	]
+}
