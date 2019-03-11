@@ -53,7 +53,7 @@ Para o desafio foi disponibilizado um arquivo [JSON](https://github.com/hyperati
 
 4. Iniciar o servidor local da API.
 
-    `json-server --port 3000 --watch .\banco-de-dados.json --static ./assets`
+    `json-server --port 3000 --watch .\api.json --static ./assets`
 
 5. Acesse a URL http://localhost:3000/promotion e http://localhost:3000/facebook.jpg através do seu navegador para verificar o correto funcionamento da API.
 
