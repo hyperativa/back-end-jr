@@ -55,7 +55,7 @@ Para o desafio foi disponibilizado um arquivo [JSON](https://github.com/hyperati
 
     `json-server --port 3000 --watch .\api.json --static ./assets`
 
-5. Acesse a URL http://localhost:3000/promotion e http://localhost:3000/facebook.jpg através do seu navegador para verificar o correto funcionamento da API.
+5. Acesse a URL http://localhost:3000/promotions e http://localhost:3000/facebook.jpg através do seu navegador para verificar o correto funcionamento da API.
 
 > _Obs.: Garanta que a pasta **assets** (fornecida no projeto) esteja no mesmo caminho que o comando acima foi executado._
 
